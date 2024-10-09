@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="api.utilities.extentReportUtilities"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="api.tests.endtoendtest">
+        <methods>
+          <include name="Testcase_2"/>
+          <include name="TestCase_1"/>
+          <include name="beforetestmethod"/>
+          <include name="set_payload"/>
+        </methods>
+      </class> <!-- api.tests.endtoendtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
